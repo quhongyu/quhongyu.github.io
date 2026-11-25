@@ -1,0 +1,86 @@
+{
+  "news": [
+    {
+      "date": "2026-10",
+      "text": "I have been awarded the <strong>National Scholarship for Doctoral Students</strong>!"
+    },
+    {
+      "date": "2026-10",
+      "text": "I am honored to have been selected for the <strong>Doctoral Student Program of the Young S&amp;T Talents Cultivation Project, CAST</strong>, sponsored by the CSIG!"
+    },
+    {
+      "date": "2026-06",
+      "text": "One paper is accepted by <strong>ECCV 2026</strong>."
+    },
+    {
+      "date": "2026-05",
+      "text": "One paper is accepted by <strong>ICML 2026</strong>."
+    },
+    {
+      "date": "2026-02",
+      "text": "One paper is accepted by <strong>CVPR 2026</strong>."
+    },
+    {
+      "date": "2026-02",
+      "text": "One paper is accepted by <strong>IEEE TPAMI</strong>."
+    },
+    {
+      "date": "2025-10",
+      "text": "One paper is accepted by <strong>IEEE TCSVT</strong>."
+    },
+    {
+      "date": "2025-09",
+      "text": "One paper is accepted by <strong>NeurIPS 2025</strong>."
+    },
+    {
+      "date": "2025-04",
+      "text": "Two papers are accepted by <strong>IJCAI 2025</strong>."
+    },
+    {
+      "date": "2025-01",
+      "text": "One paper is accepted by <strong>ICLR 2025</strong>."
+    },
+    {
+      "date": "2024-12",
+      "text": "One paper is accepted by <strong>IEEE TMM</strong>."
+    },
+    {
+      "date": "2024-08",
+      "text": "One paper is accepted by <strong>IEEE TMM</strong>."
+    },
+    {
+      "date": "2024-03",
+      "text": "One paper is accepted by <strong>IJCAI 2024</strong>."
+    },
+    {
+      "date": "2023-05",
+      "text": "One paper is accepted by <strong>IEEE TGRS</strong>."
+    }
+  ],
+  "services": {
+    "Journal Reviewer": [
+      "International Journal of Computer Vision (IJCV)",
+      "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+      "IEEE Transactions on Multimedia (TMM)",
+      "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)",
+      "IEEE Transactions on Consumer Electronics (TCE)",
+      "Knowledge-Based Systems (KBS)",
+      "Expert Systems with Applications (ESWA)",
+      "Neurocomputing",
+      "The Visual Computer (TVCJ)",
+      "Pattern Recognition Letters (PRL)",
+      "Information Sciences"
+    ],
+    "Conference Reviewer": [
+      "IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2026)",
+      "European Conference on Computer Vision (ECCV 2026)",
+      "International Conference on Machine Learning (ICML 2026)",
+      "Annual Conference on Neural Information Processing Systems (NeurIPS 2025)",
+      "International Conference on Learning Representations (ICLR 2025-2026)",
+      "AAAI Conference on Artificial Intelligence (AAAI 2026-2027)",
+      "International Joint Conference on Artificial Intelligence (IJCAI 2025-2026)",
+      "ACM International Conference on Multimedia (ACM MM 2025-2026)"
+    ]
+  }
+}
