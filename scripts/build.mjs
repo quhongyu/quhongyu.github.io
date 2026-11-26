@@ -10,7 +10,7 @@ const external = 'target="_blank" rel="noopener noreferrer"';
 const newsDate = date => `${['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][Number(date.slice(5)) - 1]} ${date.slice(0, 4)}`;
 const newsList = items => `<ul class="news-list">${items.map(item => `<li><time datetime="${item.date}">[${newsDate(item.date)}]</time><span>${item.text}</span></li>`).join('')}</ul>`;
 const news = `<div class="news-scroll" tabindex="0" role="region" aria-label="News archive, scroll to read earlier updates">${newsList(profile.news)}</div>`;
-const topics = ['All', 'Video Understanding (eg. Video LLM, Video Agent)', 'Embodied AI', 'Efficient AI'];
+const topics = ['All', 'MLLM', 'Video Understanding (eg. Video LLM, Video Agent)', 'Embodied AI', 'Efficient AI'];
 const filters = topics.map(topic => `<button class="filter" type="button" data-topic="${escape(topic)}" aria-pressed="${topic === 'All'}">${escape(topic)}</button>`).join('');
 const authorPriority = paper => paper.authors.includes('<b>Hongyu Qu</b><sup>†</sup>') ? 1 : paper.authors.startsWith('<b>Hongyu Qu</b>') ? 0 : 2;
 const publicationPriority = paper => authorPriority(paper) === 2 ? 3 : paper.status === 'preprint' ? 2 : authorPriority(paper);

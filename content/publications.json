@@ -50,7 +50,8 @@
     "url": null,
     "code": "https://github.com/CVL-hub/HRVTG",
     "topics": [
-      "Video Understanding (eg. Video LLM, Video Agent)"
+      "Video Understanding (eg. Video LLM, Video Agent)",
+      "MLLM"
     ]
   },
   {
@@ -149,7 +150,8 @@
     "arxiv": "2607.07608",
     "image": "LaMem-VLA.png",
     "topics": [
-      "Embodied AI"
+      "Embodied AI",
+      "MLLM"
     ],
     "venue": "<b>arXiv</b> preprint arXiv:2607.07608, 2026.",
     "url": "https://arxiv.org/abs/2607.07608",
@@ -162,7 +164,8 @@
     "arxiv": "2609.04131",
     "image": "LatentStream.png",
     "topics": [
-      "Video Understanding (eg. Video LLM, Video Agent)"
+      "Video Understanding (eg. Video LLM, Video Agent)",
+      "MLLM"
     ],
     "venue": "<b>arXiv</b> preprint arXiv:2609.04131, 2026.",
     "url": "https://arxiv.org/abs/2609.04131",
@@ -199,7 +202,8 @@
     "arxiv": "2611.20992",
     "image": "MedJev.png",
     "topics": [
-      "Efficient AI"
+      "Efficient AI",
+      "MLLM"
     ],
     "venue": "<b>arXiv</b> preprint arXiv:2611.20992, 2026.",
     "url": "https://arxiv.org/abs/2611.20992",
@@ -212,7 +216,8 @@
     "arxiv": "2610.40373",
     "image": "HiFOR.png",
     "topics": [
-      "Embodied AI"
+      "Embodied AI",
+      "MLLM"
     ],
     "venue": "<b>arXiv</b> preprint arXiv:2610.40373, 2026.",
     "url": "https://arxiv.org/abs/2610.40373",

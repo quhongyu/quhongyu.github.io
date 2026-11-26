@@ -5,9 +5,9 @@ const root = new URL('../', import.meta.url);
 const html = await readFile(new URL('index.html', root), 'utf8');
 const papers = JSON.parse(await readFile(new URL('content/publications.json', root), 'utf8'));
 assert.equal(papers.length, 19, 'Preserve the original 13 publications and six added preprints.');
-const topics = ['Video Understanding (eg. Video LLM, Video Agent)', 'Embodied AI', 'Efficient AI'];
+const topics = ['MLLM', 'Video Understanding (eg. Video LLM, Video Agent)', 'Embodied AI', 'Efficient AI'];
 const filterLabels = [...html.matchAll(/class="filter"[^>]*>([^<]+)<\/button>/g)].map(match => match[1]);
-assert.deepEqual(filterLabels, ['All', ...topics], 'All and the three requested research filters must be retained.');
+assert.deepEqual(filterLabels, ['All', ...topics], 'All and the four research filters must appear in the requested order.');
 assert.equal(new Set(papers.map(paper => paper.title.toLowerCase())).size, papers.length, 'Duplicate publications.');
 assert.equal(papers.filter(paper => paper.status === 'preprint').length, 6);
 assert(html.includes(`Showing ${papers.length} of ${papers.length} publications`), 'Initial publication count is stale.');
@@ -29,4 +29,4 @@ for (const paper of papers) {
   await access(new URL('Figures/' + paper.image, root));
 }
 assert.equal(await readFile(new URL('dist/index.html', root), 'utf8'), html, 'Deployment output differs.');
-console.log(`Passed: ${papers.length} publications, All + three research filters, six preprints, local assets, section links, and deployment output.`);
+console.log(`Passed: ${papers.length} publications, All + four research filters, six preprints, local assets, section links, and deployment output.`);
