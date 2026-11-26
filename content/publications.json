@@ -177,7 +177,9 @@
     "year": 2026,
     "arxiv": "2610.15772",
     "image": "RSIPO.png",
-    "topics": [],
+    "topics": [
+      "MLLM"
+    ],
     "venue": "<b>arXiv</b> preprint arXiv:2610.15772, 2026.",
     "url": "https://arxiv.org/abs/2610.15772",
     "status": "preprint"
